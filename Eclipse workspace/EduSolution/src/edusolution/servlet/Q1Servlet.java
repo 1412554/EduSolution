@@ -38,6 +38,11 @@ public class Q1Servlet extends HttpServlet {
 	      dispatcher.forward(request, response);
       }
       
+      loginedUser.setLogicalThinking(0);
+      loginedUser.setDetailedThinking(0);
+      loginedUser.setSpeedOfLearning(0);
+      loginedUser.setCommunication(0);
+      
       RequestDispatcher dispatcher = this.getServletContext().getRequestDispatcher("/WEB-INF/views/q1.jsp");
       
       dispatcher.forward(request, response);
