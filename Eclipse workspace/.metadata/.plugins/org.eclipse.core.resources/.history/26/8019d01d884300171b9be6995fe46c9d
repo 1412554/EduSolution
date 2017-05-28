@@ -1,0 +1,5 @@
+package edusolution.servlet;
+
+public class LastQuestionServlet {
+
+}

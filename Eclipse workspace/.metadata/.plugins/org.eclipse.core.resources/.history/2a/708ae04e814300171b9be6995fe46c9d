@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+  	<head>
+     	<title>Question 1</title>
+  	</head>
+  	
+  	<body>
+  	<jsp:include page="account.jsp"></jsp:include>
+  	
+  	<h1>Question 1:</h1>
+  	<form method="POST" action="question2">
+  		<input type="radio" name="ans1" value="web"> Web<br>
+  		<input type="radio" name="ans1" value="android"> Android<br>
+  		<input type="radio" name="ans1" value="security"> Security<br>
+  		<input type="submit" value= "Next quetion" />
+	</form>	
+  	
+  	</body>
+</html>
